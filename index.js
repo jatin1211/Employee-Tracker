@@ -2,7 +2,7 @@ const inquirer = require("inquirer");
 const db = require("./db/connection");
 const cTable = require("console.table");
 var departmentList = [];
-var roleList = [];
+//var roleList = [];
 
 async function questions() {
   const values = await inquirer.prompt([
@@ -18,6 +18,7 @@ async function questions() {
         "add a role",
         "add an employee",
         "update an employee role",
+        "end"
       ],
     },
   ]);

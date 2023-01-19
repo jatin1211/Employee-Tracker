@@ -1,3 +1,4 @@
+-- preloaded data for tables
 INSERT INTO department(name)
 VALUES
 ('Marketing'), ('Finance'), ('Operations'), ('Human Resource'), ('IT');

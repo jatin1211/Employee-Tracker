@@ -5,6 +5,7 @@ var departmentList = [];
 //var roleList = [];
 
 async function questions() {
+  // app startup inquirer questions
   const values = await inquirer.prompt([
     {
       type: "list",
@@ -243,4 +244,6 @@ console.log(`
 +--------------------------------------------------------------+
 |                 WELCOME TO EMPLOYEE TRACKER                  |
 +--------------------------------------------------------------+\n`);
+
+// calling function questions() on startup
 questions();
